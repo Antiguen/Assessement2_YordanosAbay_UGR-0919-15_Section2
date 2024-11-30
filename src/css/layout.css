@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.center {
+  width: 65%;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+}
+header h3 {
+  margin-left: 85px;
+  padding-top: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: left;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+.nav-button {
+  padding: 2px 5px;
+  margin: 0 5px;
+}
+.Upper_paragraph {
+  display: flex;
+}
+.paragraph1,
+.paragraph2 {
+  margin: 20px 10px 10px 10px;
+  flex: 1;
+}
+.Upper_paragraph img {
+  width: 100%;
+}
+.Upper_paragraph .company_name {
+  width: 650px;
+}
+.Upper_paragraph .company_name h2,
+.Upper_paragraph .company_name p,
+.Upper_paragraph div h2,
+.Upper_paragraph .contacts input {
+  margin-bottom: 20px;
+}
+.Upper_paragraph .contacts input,
+.Upper_paragraph .contacts textarea {
+  width: 100%;
+  border: 1px solid lightgrey;
+  margin-bottom: 20px;
+}
+textarea {
+  height: 60px;
+}
+button {
+  padding: 5px 10px 5px 10px;
+
+  border-radius: 1px solid lightgrey;
+}
+.contacts {
+  margin-bottom: 50px;
+}
+.Lower_paragraph {
+  display: flex;
+  width: 90%;
+}
+.paragraph3,
+.paragraph4 {
+  margin: 20px 10px 10px 10px;
+  flex: 1;
+}
+.paragraph3 {
+  margin-left: 14%;
+}
+.paragraph4 {
+  margin-right: 35%;
+}
+.Upper_paragraph .first_column {
+  margin-right: 10px;
+}
+.Lower_paragraph h3 {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.Lower_paragraph p {
+  margin-top: 10px;
+}
+.floor .center,
+footer .center,
+footer .center div ul {
+  display: flex;
+  padding: 10px 10px 10px 10px;
+}
+.images img {
+  width: 70px;
+  margin: 10px 10px 10px 10px;
+}
+.upper_images {
+  display: flex;
+  justify-content: space-between;
+}
+.lower_images {
+  display: flex;
+  justify-content: space-between;
+}
+.floor_about {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.about2 {
+  display: flex;
+}
+.about2 img {
+  width: 75px;
+  margin: 5px;
+}
+footer .center {
+  justify-content: space-between;
+}
+footer .center div ul li,
+footer .center div p {
+  padding: 5px 10px 5px 10px;
+}
+footer {
+  margin-bottom: 0px;
+}
